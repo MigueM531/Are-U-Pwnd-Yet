@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explora el catálogo de competencias CTF y laboratorios prácticos en Are U Pwnd Yet. Filtra por modalidad y nivel de dificultad.">
+  <title>Competencias y Laboratorios | Are U Pwnd Yet?</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="logo">
+        <span class="logo-symbol">&gt;_</span>
+        <span class="logo-text">Are-U-Pwnd-Yet</span>
+      </a>
+
+      <nav id="primary-nav" class="primary-nav" aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Inicio</a></li>
+          <li><a href="competencias.html" class="nav-link active" aria-current="page">Competencias</a></li>
+          <li><a href="registro.html" class="nav-link">Inscribir Equipo</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section class="catalog-hero" aria-labelledby="catalog-title">
+      <div class="container">
+        <span class="badge badge-accent">Catálogo</span>
+        <h1 id="catalog-title" class="page-title">Competencias CTF y Laboratorios</h1>
+        <p class="page-description">
+          Explora eventos activos y próximos. Filtra por categoría, modalidad o dificultad para encontrar el reto ideal para tu equipo.
+        </p>
+      </div>
+    </section>
+
+    <section class="filters-section" aria-label="Filtros de búsqueda de competencias">
+      <div class="container">
+        <div class="filters-wrapper">
+
+          <div class="search-box">
+            <label for="search-input" class="sr-only">Buscar nombre o palabra clave</label>
+            <input 
+              type="search" 
+              id="search-input" 
+              class="form-control" 
+              placeholder="Buscar por título, tag o tecnología (ej. Web, OSINT)..."
+            >
+          </div>
+
+          <div class="filter-buttons" role="group" aria-label="Filtrar por dificultad">
+            <button type="button" class="filter-btn active" data-filter="all">Todas</button>
+            <button type="button" class="filter-btn" data-filter="Principiante">Principiante</button>
+            <button type="button" class="filter-btn" data-filter="Intermedio">Intermedio</button>
+            <button type="button" class="filter-btn" data-filter="Avanzado">Avanzado</button>
+          </div>
+        </div>
+
+        <div class="catalog-status" aria-live="polite">
+          <p id="results-count" class="results-count">Mostrando competencias disponibles...</p>
+        </div>
+      </div>
+    </section>
+
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <span class="logo-symbol">&gt;_</span>
+        <span class="logo-text">Are-U-Pwnd-Yet</span>
+        <p class="footer-tagline">Comunidad estudiantil de ciberseguridad y CTF.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Enlaces secundarios">
+        <h3 class="footer-heading">Navegación</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="competencias.html">Competencias</a></li>
+          <li><a href="registro.html">Inscribir Equipo</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-legal">
+        <h3 class="footer-heading">Legal</h3>
+        <p class="footer-text">
+          Diseñado para fines educativos.
+        <p class="footer-copy">&copy; 2026 Are-U-Pwnd-Yet.</p>
+      </div>
+    </div>
+  </footer>
+
