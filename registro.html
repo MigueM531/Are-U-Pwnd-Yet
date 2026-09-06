@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Inscribe a tu equipo en las competencias y laboratorios de Are U Pwnd Yet. Validación en tiempo real y registro oficial.">
+  <title>Registro | Are U Pwnd Yet?</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="logo">
+        <span class="logo-symbol">&gt;_</span>
+        <span class="logo-text">Are-U-Pwnd-Yet</span>
+      </a>
+
+      <nav id="primary-nav" class="primary-nav" aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Inicio</a></li>
+          <li><a href="competencias.html" class="nav-link">Competencias</a></li>
+          <li><a href="registro.html" class="nav-link active" aria-current="page">Inscribir Equipo</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section class="form-hero" aria-labelledby="form-page-title">
+      <div class="container">
+        <span class="badge badge-accent">Registro</span>
+        <h1 id="form-page-title" class="page-title">Registrate en Are-U-Pwnd-Yet</h1>
+        <p class="page-description">
+          ¡Para acceder a los retos y tener un lugar en el top!
+        </p>
+      </div>
+    </section>
+
+    <section class="form-section" aria-label="Formulario de registro">
+      <div class="container">
+        <div class="form-wrapper">
+
+          <div id="form-feedback" class="form-feedback hidden" role="alert" aria-live="polite"></div>
+
+          <form id="registration-form" class="cyber-form" novalidate>
+
+
+            <fieldset class="form-fieldset">
+              <legend class="form-legend">Tu Información</legend>
+
+              <div class="form-group" id="group-team-name">
+                <label for="team-name" class="form-label">
+                  Nombre o Alias <span class="required" aria-hidden="true">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  id="team-name" 
+                  name="teamName" 
+                  class="form-control" 
+                  placeholder="Ej. CyberPhantom" 
+                  required 
+                  minlength="4" 
+                  maxlength="15"
+                  aria-describedby="team-name-error team-name-help"
+                  aria-required="true"
+                >
+                <small id="team-name-help" class="form-help">Mínimo 4 caracteres.</small>
+
+              </div>
+
+              <div class="form-group" id="group-leader-email">
+                <label for="leader-email" class="form-label">
+                  Correo Electrónico<span class="required" aria-hidden="true">*</span>
+                </label>
+                <input 
+                  type="email" 
+                  id="email" 
+                  name="Email" 
+                  class="form-control" 
+                  placeholder="correo@personal.com" 
+                  required 
+                  aria-describedby="leader-email-error leader-email-help"
+                  aria-required="true"
+                >
+
+              </div>
+
+            </fieldset>
+
+            <fieldset class="form-fieldset">
+              <legend class="form-legend">Términos y Código Ético</legend>
+
+              <div class="form-group checkbox-group" id="group-ethics">
+                <div class="checkbox-wrapper">
+                  <input 
+                    type="checkbox" 
+                    id="ethics-check" 
+                    name="acceptEthics" 
+                    required 
+                    aria-describedby="ethics-error"
+                  >
+                  <label for="ethics-check" class="checkbox-label">
+                    Certifico que las habilidades y técnicas empleadas serán con fines estrictamente éticos. <span class="required" aria-hidden="true">*</span>
+                  </label>
+                </div>
+                <span id="ethics-error" class="error-message" aria-live="assertive"></span>
+              </div>
+            </fieldset>
+
+
+            <div class="form-actions">
+              <button type="submit" id="submit-btn" class="btn btn-primary btn-block">
+                <span class="btn-text">Confirmar Registro</span>
+                <span class="btn-loader hidden" aria-hidden="true">⏳</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <span class="logo-symbol">&gt;_</span>
+        <span class="logo-text">Are-U-Pwnd-Yet</span>
+        <p class="footer-tagline">Comunidad estudiantil de ciberseguridad y CTF.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Enlaces secundarios">
+        <h3 class="footer-heading">Navegación</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="competencias.html">Competencias</a></li>
+          <li><a href="registro.html">Inscribir Equipo</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-legal">
+        <h3 class="footer-heading">Legal</h3>
+        <p class="footer-text">
+          Diseñado para fines educativos.
+        </p>
+        <p class="footer-copy">&copy; 2026 Are-U-Pwnd-Yet.</p>
+      </div>
+    </div>
+  </footer>
