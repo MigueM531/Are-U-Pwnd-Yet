@@ -4,7 +4,7 @@
   --bg-sec: #161b22;
   --text-main: #c9d1d9;
   --text-sec: #8b949e;
-  --accent: #238636;
+  --accent: #9f4ec2dc;
   --accent-hover: #2ea043;
   --border: #30363d;
   --error: #f85149;
@@ -16,7 +16,7 @@
   --bg-sec: #ffffff;
   --text-main: #24292f;
   --text-sec: #57606a;
-  --accent: #0969da; /* Azul corporativo */
+  --accent: #0964cb;
   --accent-hover: #035cc5;
   --border: #d0d7de;
   --error: #cf222e;
@@ -39,7 +39,7 @@ ul { list-style: none; }
 
 /* HEADER */
 .site-header { border-bottom: 1px solid var(--border); background-color: var(--bg-sec); }
-.header-container { display: flex; justify-content: space-between; align-items: center; height: 70px; }
+.header-container { display: flex; justify-content: space-between; align-items: center; height: 70px; padding: 0 1.5rem; }
 .logo { font-weight: bold; font-size: 1.25rem; display: flex; gap: 0.5rem; align-items: center; }
 .logo-symbol { color: var(--accent); }
 .nav-list { display: flex; gap: 1.5rem; }
