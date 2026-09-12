@@ -54,8 +54,8 @@
                 </label>
                 <input 
                   type="text" 
-                  id="team-name" 
-                  name="teamName" 
+                  id="name" 
+                  name="Name" 
                   class="form-control" 
                   placeholder="Ej. CyberPhantom" 
                   required 
@@ -64,11 +64,11 @@
                   aria-describedby="team-name-error team-name-help"
                   aria-required="true"
                 >
-                <small id="team-name-help" class="form-help">Mínimo 4 caracteres.</small>
+                <small id="name-help" class="form-help">Mínimo 4 caracteres.</small>
 
               </div>
 
-              <div class="form-group" id="group-leader-email">
+              <div class="form-group" id="group-email">
                 <label for="leader-email" class="form-label">
                   Correo Electrónico<span class="required" aria-hidden="true">*</span>
                 </label>
@@ -79,7 +79,7 @@
                   class="form-control" 
                   placeholder="correo@personal.com" 
                   required 
-                  aria-describedby="leader-email-error leader-email-help"
+                  aria-describedby="email-error email-help"
                   aria-required="true"
                 >
 
@@ -148,5 +148,7 @@
     </div>
   </footer>
 
+
+  <script src="js/validation.js"></script>
 </body>
 </html>
