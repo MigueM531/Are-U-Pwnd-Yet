@@ -22,6 +22,27 @@
   --error: #cf222e;
 }
 
+/* BOTON CAMBIO DE TEMA */
+.theme-toggle-btn {
+  background-color: var(--bg-main);
+  border: 1px solid var(--border);
+  color: var(--text-main);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: border-color 0.2s, transform 0.2s, background-color 0.2s;
+}
+
+.theme-toggle-btn:hover {
+  border-color: var(--accent);
+  transform: scale(1.08);
+}
+
 /* BASE */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
