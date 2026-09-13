@@ -50,7 +50,10 @@ Resuelve la necesidad de encontrar retos tipo Capture The Flag (CTF) en los cual
 ### Flexbox y Grid
 Para el diseño, se utilizó Flexbox en el header para alinear elementos en una sola fila y distribuir los espacios de manera dinámica entre el logo, los enlaces y el botón de alternar tema. También se utilizó en la sección Hero del index para permitir que el texto y la terminal se alineen uno al lado del otro y colapsen de forma fluida si la pantalla se reduce. Además, está presente en header y footer de las tarjetas de los retos mostradas en el catálogo, para que los elementos se posicionen lado a lado de la tarjeta.
 
-El uso de Grid, por otra parte, está en el catalogo de retos, ya que se requería un layout de dos dimensiones, es decir, mostrar las tarjetas en filas y columnas. Con 'auto-fit' y 'minmax', las tarjetas se adaptan al ancho disponible.
+El uso de Grid, por otra parte, está en el catalogo de retos, ya que se requería un layout de dos dimensiones, es decir, mostrar las tarjetas en filas y columnas. Con `auto-fit` y `minmax`, las tarjetas se adaptan al ancho disponible.
+
+Algunos elementos como las tarjetas de los retos, y el header del sitio, se colapsaban bruscamente al renderizar la aplicación en una pantalla mas pequeña (móvil). La solución fue agregar unas reglas `@media` para `.catalog-grid`, `#catalog-grid`, `.header-container` y `.hero-actions` según el ancho de la pantalla.
+
 
 ### Javascript
 El proyecto utiliza Javascript y DOM para controlar tema visual (oscuro, claro), renderizado, filtro y búsqueda de retos, y validación de registro de usuario. 
@@ -71,7 +74,7 @@ También hubo uso de IA para ayudar a escribir algunos algoritmos, como por ejem
 ### Dificultades y Pendientes
 
 Inicialmente se buscaba hacer que en la plataforma se registraran equipos para competir, pero luego se optó por registrar cada usuario de forma individual para simplificar el desarrollo.
-
+ 
 Aún se deben agregar retos documentados y con solución (Flag), lo cual se hará posteriormente, al ingresar a un reto del catálogo se muestra un mensaje, avisando al usuario de que el reto estará disponible próximamente.
 
 Está pendiente el desarrollo de un top o podio de usuarios con mayor puntuación registrados en la plataforma.
