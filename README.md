@@ -17,6 +17,11 @@ Resuelve la necesidad de encontrar retos tipo Capture The Flag (CTF) en los cual
 ### Escritorio
 - #### Landing Page (index)
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ae09f31a-08dd-442c-9dda-f70471b0e22d" width="48%" />
+  <img src="https://github.com/user-attachments/assets/d4b3a76f-7f6b-45db-ae1f-1ab0bd30077f" width="48%" />
+</p>
+
 - #### Competencias
 
 - #### Registro
