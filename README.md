@@ -40,10 +40,27 @@ Resuelve la necesidad de encontrar retos tipo Capture The Flag (CTF) en los cual
 ### Móvil
 - #### Landing Page (index)
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/42619501-fe72-48e3-8d01-709b5b1a807f" width="280" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/7848bb79-6ada-4f52-8a70-aebeba0be0f7" width="280" />
+</p>
+
 - #### Competencias
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/933b32f6-864e-45b2-b9a5-c2e9a018bf55" width="280" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/019c8458-d796-4dd7-a52b-2d390198f7d1" width="280" />
+</p>
 
 - #### Registro
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d9244104-f351-41a1-a228-b6f78b6cee51" width="280" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/858128de-89be-4310-9964-85f180135408" width="280" />
+</p>
 
 
 ## DECISIONES TÉCNICAS:
