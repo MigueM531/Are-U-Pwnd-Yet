@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('registration-form');
+  if (!form) return;
+
   const feedback = document.getElementById('form-feedback');
   const NameInput = document.getElementById('name');
   const emailInput = document.getElementById('email');
@@ -10,7 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const btnText = submitBtn.querySelector('.btn-text');
   const btnLoader = submitBtn.querySelector('.btn-loader');
 
-  if (!form) return;
 
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
@@ -39,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     const formData = {
-      teamName: Name,
+      Name: Name,
       email,
       acceptEthics: acceptsEthics,
       createdAt: new Date().toISOString()
@@ -47,8 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (errors.length > 0) {
       showFeedback(errors.join('<br>'));
-      console.log(errors);
-      console.log(formData);
+      console.log(errors, formData);
       return;
     }
 
