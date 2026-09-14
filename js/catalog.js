@@ -1,6 +1,14 @@
 const competencias = [
   {
     id: 1,
+    titulo: "OSINT: Huellas Digitales",
+    categoria: "OSINT",
+    dificultad: "Principiante",
+    descripcion: "Rastrea la presencia de un perfil objetivo mediante metadatos e imágenes públicas.",
+    puntos: 150
+  },
+  {
+    id: 2,
     titulo: "Buffer Overflow 101",
     categoria: "Pwn",
     dificultad: "Principiante",
@@ -8,20 +16,12 @@ const competencias = [
     puntos: 100
   },
   {
-    id: 2,
+    id: 3,
     titulo: "SQL Injection Bypass",
     categoria: "Web",
     dificultad: "Intermedio",
     descripcion: "Evade la autenticación y extrae la flag de la base de datos PostgreSQL.",
     puntos: 250
-  },
-  {
-    id: 3,
-    titulo: "OSINT: Huellas Digitales",
-    categoria: "OSINT",
-    dificultad: "Principiante",
-    descripcion: "Rastrea la presencia de un perfil objetivo mediante metadatos e imágenes públicas.",
-    puntos: 150
   },
   {
     id: 4,
