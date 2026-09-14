@@ -88,11 +88,24 @@ El uso de IA en el proyecto se ve reflejado principalmente en el archivo *css/st
 
 También hubo uso de IA para ayudar a escribir algunos algoritmos, como por ejemplo los botones de filtro para retos en el catálogo. O por otra parte la forma en que se valida el correo electrónico en el registro.
 
+#### Reto demostrativo:
+Se generó con IA una simulacion en el catálogo para demostrar como funcionarán los retos. Un archivo `js/reto.js` y su estilo en `css/styles.css`. 
+
+El reto **OSINT: Huellas Digitales** tiene contenido, simula un inicio de reto y valida que se ingrese una FLAG, si es correcta o incorrecta.
+
+La solucion del reto o FLAG es la siguiente:
+
+```bash
+FLAG{exif_d4t4_l34k_loc4ti0n}
+```
+
+Ingresar la FLAG en el campo y validar.
+
 ### Dificultades y Pendientes
 
 Inicialmente se buscaba hacer que en la plataforma se registraran equipos para competir, pero luego se optó por registrar cada usuario de forma individual para simplificar el desarrollo.
  
-Aún se deben agregar retos documentados y con solución (Flag), lo cual se hará posteriormente, al ingresar a un reto del catálogo se muestra un mensaje, avisando al usuario de que el reto estará disponible próximamente.
+Aún se debe agregar contenido a los retos, documentación (writeups) y solución (Flag), lo cual se hará posteriormente, al ingresar a un reto del catálogo se muestra un mensaje, avisando al usuario de que el reto estará disponible próximamente.
 
 Está pendiente el desarrollo de un top o podio de usuarios con mayor puntuación registrados en la plataforma.
 
