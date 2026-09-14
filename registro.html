@@ -19,11 +19,12 @@
         <ul class="nav-list">
           <li><a href="index.html" class="nav-link">Inicio</a></li>
           <li><a href="competencias.html" class="nav-link">Competencias</a></li>
-          <li><a href="registro.html" class="nav-link active" aria-current="page">registro</a></li>
-
-          <button id="theme-toggle" class="theme-toggle-btn" aria-label="Cambiar tema visual">
-            <span id="theme-icon">🌙</span>
-          </button>
+          <li><a href="registro.html" class="nav-link active" aria-current="page">Registro</a></li>
+          <li>
+            <button id="theme-toggle" class="theme-toggle-btn" aria-label="Cambiar tema visual">
+              <span id="theme-icon">🌙</span>
+            </button>
+          </li>
         </ul>
       </nav>
     </div>
@@ -48,12 +49,11 @@
 
           <form id="registration-form" class="cyber-form" novalidate>
 
-
             <fieldset class="form-fieldset">
               <legend class="form-legend">Tu Información</legend>
 
               <div class="form-group" id="group-team-name">
-                <label for="team-name" class="form-label">
+                <label for="name" class="form-label">
                   Nombre o Alias <span class="required" aria-hidden="true">*</span>
                 </label>
                 <input 
@@ -65,15 +65,14 @@
                   required 
                   minlength="4" 
                   maxlength="15"
-                  aria-describedby="team-name-error team-name-help"
+                  aria-describedby="name-help"
                   aria-required="true"
                 >
                 <small id="name-help" class="form-help">Mínimo 4 caracteres.</small>
-
               </div>
 
               <div class="form-group" id="group-email">
-                <label for="leader-email" class="form-label">
+                <label for="email" class="form-label">
                   Correo Electrónico<span class="required" aria-hidden="true">*</span>
                 </label>
                 <input 
@@ -83,10 +82,8 @@
                   class="form-control" 
                   placeholder="correo@personal.com" 
                   required 
-                  aria-describedby="email-error email-help"
                   aria-required="true"
                 >
-
               </div>
 
             </fieldset>
@@ -104,13 +101,12 @@
                     aria-describedby="ethics-error"
                   >
                   <label for="ethics-check" class="checkbox-label">
-                    Certifico que las habilidades y técnicas empleadas serán con fines estrictamente éticos. <span class="required" aria-hidden="true">*</span>
+                    Certifico que las habilidades y técnicas empleadas serán con fines strictly éticos. <span class="required" aria-hidden="true">*</span>
                   </label>
                 </div>
                 <span id="ethics-error" class="error-message" aria-live="assertive"></span>
               </div>
             </fieldset>
-
 
             <div class="form-actions">
               <button type="submit" id="submit-btn" class="btn btn-primary btn-block">
@@ -123,7 +119,6 @@
       </div>
     </section>
   </main>
-
 
   <footer class="site-footer">
     <div class="container footer-container">
@@ -151,7 +146,6 @@
       </div>
     </div>
   </footer>
-
 
   <script src="js/validation.js"></script>
   <script src="js/theme.js"></script>
